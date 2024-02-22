@@ -1,0 +1,8 @@
+<h1><%= @restaurant.name %></h1>
+<h5><%= @restaurant.category %></h5>
+<p><%= @restaurant.address %>, <%= @restaurant.phone_number %></p>
+
+<%= link_to "Liste des restaurants", "/restaurants" %>
+
+
+<p><%= link_to "Add a review", ":restaurant_id/reviews/new" %></p>
